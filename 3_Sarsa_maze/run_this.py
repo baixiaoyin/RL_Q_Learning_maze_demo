@@ -37,6 +37,7 @@ def update():
             action = action_
 
             # break while loop when end of this episode
+            #print(RL.q_table)
             if done:
                 break
 
